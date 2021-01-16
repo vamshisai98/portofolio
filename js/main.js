@@ -32,11 +32,13 @@
         event.preventDefault();
         const hash = event.target.hash;
         // deactivate existing active 'section'
-        document.querySelector('.section.active').classList.add('hide');
-        document.querySelector('.section.active').classList.remove('active');
-        // activate new 'section'
-        document.querySelector(hash).classList.add('active');
-        document.querySelector(hash).classList.remove('hide');
+
+        // document.querySelector('.section.active').classList.add('hide');
+        // document.querySelector('.section.active').classList.remove('active');
+        // // activate new 'section'
+        // document.querySelector(hash).classList.add('active');
+        // document.querySelector(hash).classList.remove('hide');
+
         /* deactivate existing active navigation menu 'link-item' */
         navMenu
           .querySelector('.active')
